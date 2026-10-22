@@ -13,27 +13,36 @@ Here are a few things I've been working on.
 
 <p><a href="https://github.com/xhr-CHN/causal-rgb-pose-fall-event-detection">
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/project-1-mobile-v4.png" />
-  <source media="(max-width: 1279px)" srcset="assets/project-1-tablet-v4.png" />
-  <img src="assets/project-1-desktop-v4.png" width="100%" alt="Fall event detection — causal RGB-pose modeling and event-level evaluation. Python and PyTorch." />
+  <source media="(max-width: 600px)" srcset="assets/project-1-title-mobile-v4.png" />
+  <source media="(max-width: 1279px)" srcset="assets/project-1-title-tablet-v4.png" />
+  <img src="assets/project-1-title-desktop-v4.png" width="100%" alt="01 · Fall event detection" />
 </picture>
 </a></p>
+
+Causal RGB–pose modeling and event-level evaluation.<br />
+<sub>Python · PyTorch</sub>
 
 <p><a href="https://github.com/xhr-CHN/jetson-ros2-object-detection">
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/project-2-mobile-v4.png" />
-  <source media="(max-width: 1279px)" srcset="assets/project-2-tablet-v4.png" />
-  <img src="assets/project-2-desktop-v4.png" width="100%" alt="Vision on the edge — desktop object detection on Jetson with ROS 2." />
+  <source media="(max-width: 600px)" srcset="assets/project-2-title-mobile-v4.png" />
+  <source media="(max-width: 1279px)" srcset="assets/project-2-title-tablet-v4.png" />
+  <img src="assets/project-2-title-desktop-v4.png" width="100%" alt="02 · Vision on the edge" />
 </picture>
 </a></p>
 
+Desktop object detection on Jetson with ROS 2.<br />
+<sub>Jetson · ROS 2</sub>
+
 <p><a href="https://github.com/xhr-CHN/mecharm-fixed-point-pick-place">
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/project-3-mobile-v4.png" />
-  <source media="(max-width: 1279px)" srcset="assets/project-3-tablet-v4.png" />
-  <img src="assets/project-3-desktop-v4.png" width="100%" alt="From simulation to motion — fixed-point pick-and-place with mechArm 270 and Isaac Sim." />
+  <source media="(max-width: 600px)" srcset="assets/project-3-title-mobile-v4.png" />
+  <source media="(max-width: 1279px)" srcset="assets/project-3-title-tablet-v4.png" />
+  <img src="assets/project-3-title-desktop-v4.png" width="100%" alt="03 · From simulation to motion" />
 </picture>
 </a></p>
+
+Fixed-point pick-and-place with mechArm 270 and Isaac Sim.<br />
+<sub>Isaac Sim · ROS 2</sub>
 
 <p><picture><img src="assets/workbench-v4.png" width="200" height="42" alt="On my workbench" /></picture></p>
 
