@@ -19,9 +19,6 @@ Here are a few things I've been working on.
 </picture>
 </a></p>
 
-Causal RGB–pose modeling and event-level evaluation.<br />
-<sub>Python · PyTorch</sub>
-
 <p><a href="https://github.com/xhr-CHN/jetson-ros2-object-detection">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/project-2-title-mobile-v4.png" />
@@ -30,9 +27,6 @@ Causal RGB–pose modeling and event-level evaluation.<br />
 </picture>
 </a></p>
 
-Desktop object detection on Jetson with ROS 2.<br />
-<sub>Jetson · ROS 2</sub>
-
 <p><a href="https://github.com/xhr-CHN/mecharm-fixed-point-pick-place">
 <picture>
   <source media="(max-width: 600px)" srcset="assets/project-3-title-mobile-v4.png" />
@@ -40,9 +34,6 @@ Desktop object detection on Jetson with ROS 2.<br />
   <img src="assets/project-3-title-desktop-v4.png" width="100%" alt="03 · From simulation to motion" />
 </picture>
 </a></p>
-
-Fixed-point pick-and-place with mechArm 270 and Isaac Sim.<br />
-<sub>Isaac Sim · ROS 2</sub>
 
 <p><picture><img src="assets/workbench-v4.png" width="200" height="42" alt="On my workbench" /></picture></p>
 
