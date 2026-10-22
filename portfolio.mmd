@@ -1,0 +1,9 @@
+%% Portfolio areas: these branches classify projects, not a processing pipeline.
+flowchart LR
+  portfolio["Selected work"] --> motion["Human motion"]
+  portfolio --> edge["Edge perception"]
+  portfolio --> manipulation["Robot manipulation"]
+  classDef root fill:#222221,stroke:#6f6d66,color:#eeeeec
+  classDef area fill:#181818,stroke:#62605b,color:#d4d2ca
+  class portfolio root
+  class motion,edge,manipulation area

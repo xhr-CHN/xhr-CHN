@@ -1,0 +1,39 @@
+name: Refresh profile stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 3 * * 1'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate public stats
+        uses: readme-tools/github-readme-stats-action@d82657a0e215a28ec48bfc9b3987999a279f93be
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&hide_border=true&bg_color=181818&title_color=eeeeec&text_color=b5b3ad&icon_color=8db4bc&border_radius=14
+          path: assets/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit refreshed snapshot
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- assets/stats.svg
+          if git diff --cached --quiet; then
+            echo 'Stats unchanged.'
+            exit 0
+          fi
+          git commit -m 'chore: refresh public profile stats'
+          git push
