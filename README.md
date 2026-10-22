@@ -6,9 +6,6 @@
 
 <p><picture><img src="assets/about-label-v4.png" width="165" height="30" alt="A few notes about me" /></picture></p>
 
-I work on visual perception and robotic systems.  
-Here are a few things I've been working on.
-
 <p><picture><img src="assets/selected-work-v4.png" width="153" height="42" alt="Selected work" /></picture></p>
 
 <p><a href="https://github.com/xhr-CHN/causal-rgb-pose-fall-event-detection">
