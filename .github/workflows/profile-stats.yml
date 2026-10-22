@@ -21,7 +21,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@d82657a0e215a28ec48bfc9b3987999a279f93be
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&hide_border=true&bg_color=181818&title_color=eeeeec&text_color=b5b3ad&icon_color=8db4bc&border_radius=14
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&hide_border=true&bg_color=00000000&title_color=eeeeec&text_color=b5b3ad&icon_color=8db4bc&border_radius=14
           path: assets/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit refreshed snapshot
