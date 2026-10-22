@@ -56,13 +56,6 @@
 
 </details>
 
-<details>
-<summary>Research repository</summary>
-
-[![License](https://img.shields.io/github/license/xhr-CHN/causal-rgb-pose-fall-event-detection?style=flat&labelColor=222221&color=3b3a37)](https://github.com/xhr-CHN/causal-rgb-pose-fall-event-detection/blob/main/LICENSE)
-
-</details>
-
 ---
 
 <p><picture><img src="assets/footer-note-v4.png" width="199" height="32" alt="Small steps. Real projects." /></picture></p>
